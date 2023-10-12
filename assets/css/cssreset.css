@@ -1,9 +1,6 @@
 @font-face {
   font-family: Vazir-Medium;
-  src: url("/fonts/Vazir-Medium.ttf") format("truetype"),
-    url("/fonts/Vazir-Medium.eot") format("eot"),
-    url("/fonts/Vazir-Medium.woff") format("woff"),
-    url("/fonts/Vazir-Medium.woff2") format("woff2");
+  src: url("/assets/fonts/Vazir-Medium.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -26,4 +23,18 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.img-res{
+    width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }

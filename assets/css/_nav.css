@@ -1,0 +1,95 @@
+/* Navbar Section Styles */
+nav {
+  background-color: #dfe6e9;
+  display: flex;
+}
+
+
+nav div.container {
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+}
+
+nav .logo {
+  align-self: center;
+}
+
+nav .container ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 18px;
+  color: #0984e3;
+}
+
+nav .social li {
+  font-size: 22px;
+  color: #74b9ff;
+}
+
+nav .social li:hover {
+  color: #0984e3;
+}
+
+nav .container a.bars {
+  display: none;
+}
+
+nav .container a.user {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  nav .container ul {
+    display: none;
+  }
+
+  nav .container > a {
+    display: flex !important;
+    align-self: center;
+    color: #0984e3;
+    font-size: 20px;
+  }
+
+  nav a.bars {
+    order: 1;
+  }
+
+  nav img {
+    order: 2;
+  }
+
+  nav a.user {
+    order: 3;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav.responsive ul.menu {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    background-color: #dfe6e9;
+    border-top: 1px solid #b2bec3;
+  }
+
+  nav.responsive ul.menu li {
+    padding: 5px 20px;
+    width: 100%;
+  }
+
+  nav.responsive ul.menu li:hover {
+    align-self: center;
+    color: #6c5ce7;
+    background-color: #fdcb6e;
+  }
+}
+
+
