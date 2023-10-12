@@ -21,7 +21,10 @@ nav .container ul {
 }
 
 nav ul li {
-  margin-right: 18px;
+  margin-right: 22px;
+}
+
+nav ul li:hover{
   color: #0984e3;
 }
 
@@ -42,7 +45,7 @@ nav .container a.user {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 632px) {
   nav .container ul {
     display: none;
   }
