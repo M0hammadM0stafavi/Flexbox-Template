@@ -1,0 +1,52 @@
+/* Header Section Style */
+.header-wrapper {
+  background-image: url("/assets/img/the-town-bg-01.jpg");
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dfe6e9;
+}
+
+.header-title {
+  text-align: center;
+  line-height: 100px;
+}
+
+.header-title h2 {
+  font-size: 70px;
+}
+
+.header-title p {
+  font-size: 16px;
+}
+
+.header-title button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.header-title button.dest {
+  background-color: #0984e3;
+  color: #dfe6e9;
+}
+
+.header-title button.sugest {
+  background-color: #dfe6e9;
+  color: #2d3436;
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 632px) {
+  
+  .header-title h2 {
+    font-size: 33px;
+  }
+
+  .header-title p {
+    font-size: 13px;
+  }
+}
