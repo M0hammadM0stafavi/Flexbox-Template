@@ -1,5 +1,5 @@
-/* dest CSS Style */
-.dest{
+/* destination CSS Style */
+.destination{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -13,23 +13,23 @@
   border-bottom: 1px solid #0984e3;
 }
 
-.dest li{
+.destination li{
   padding: 20px;
   flex-basis: 250px;
 }
 
-.dest li img{
+.destination li img{
   border-radius: 100%;
   opacity: 1;
   transition: all .5s ease;
 }
 
-.dest li img:hover{
+.destination li img:hover{
   opacity: .7;
 }
 
 @media screen and (max-width: 656px) {
-  .dest li{
+  .destination li{
     flex-basis: auto;
   }
 }
