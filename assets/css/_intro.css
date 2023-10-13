@@ -1,0 +1,65 @@
+/* Introduction Section Style */
+.intro {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: space-around;
+}
+
+.intro aside {
+  flex: 50%;
+  padding: 5px 45px;
+}
+
+.intro main {
+  flex: 50%;
+  display: flex;
+}
+
+.intro main img {
+  border-radius: 8px;
+}
+
+aside h3 {
+  font-size: 40px;
+  color: #0984e3;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dfe6e9;
+}
+
+aside p {
+  padding-top: 15px;
+  color: #636e72;
+  font-size: 16px;
+  line-height: 31px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.holder {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+  .intro aside {
+    flex: 100%;
+    padding: 5px 45px;
+  }
+
+  .intro aside h3 {
+    font-size: 30px;
+  }
+
+  .intro aside p {
+    font-size: 13px;
+  }
+
+  .intro main {
+    display: none !important;
+  }
+}
