@@ -2,6 +2,9 @@
 nav {
   background-color: #dfe6e9;
   display: flex;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
 
 
@@ -22,6 +25,7 @@ nav .container ul {
 
 nav ul li {
   margin-right: 22px;
+  color: #2d3436;
 }
 
 nav ul li:hover{
